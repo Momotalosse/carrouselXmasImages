@@ -1,0 +1,61 @@
+#f1, #f2{
+    position: fixed;
+    z-index: 10;
+    top: 50vh;
+    font-size: 40px;
+    padding: 0px 9px;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+#f1:hover, #f2:hover{
+    cursor: pointer;
+    background-color: rgb(220, 220, 220);
+}
+
+#f1{
+    left: 0px;
+}
+
+#f2{
+    right: 0px;
+}
+
+/* ------------------------------------------------------------------- */
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.conteneur{
+    display: flex;
+}
+
+.carrousel{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+}
+
+#carrousel1{
+    z-index: 3;
+}
+
+#carrousel2{
+    z-index: 2;
+}
+
+#carrousel3{
+    z-index: 1;
+}
+
+#carrousel4{
+    z-index: 0;
+}
+
+
+
+
+
